@@ -1,0 +1,146 @@
+/* <!-- 	Шрифт: Шрифт: Arial, sans-serif
+Цвета:
+Цвет текста в поиске и ссылки при наведении #ec5a62;
+Цвет текста и placeholder’a #c2c2c2
+Фон ссылки rgba(118,117,128,0.05)
+Фон ссылки при наведении rgba(118,117,128,0.1) --> */
+
+	
+	*{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body{
+		color: #c2c2c2;
+		background-color: #F1F1F1;
+
+
+	}
+	form{
+		margin: 0 auto;
+		width: 800px;
+		/* border: 1px solid #000; */
+	}
+		.search{
+			display: inline-block;
+			width: 80%;
+			font-size: 80px;
+			font-family: Arial, sans-serif;
+			font-weight: bold;
+			color: #c2c2c2; 
+			margin: 0 auto;
+			border: none;
+			background-color: #F1F1F1;
+			outline: none;
+		}
+		.search:hover{
+			display: inline-block;
+			width: 80%;
+			font-size: 80px;
+			font-family: Arial, sans-serif;
+			font-weight: bold;
+			color: #c2c2c2; 
+			margin: 0 auto;
+			border: none;
+			outline: none;
+		}
+
+				.search::-webkit-input-placeholder{ 
+					color:#c2c2c2;
+					font-family: Arial, sans-serif;
+					opacity: 0.8;
+				}	
+
+
+		
+		.form__button{
+			display: inline-block;
+			background-image: url('img/favicon.png');
+			background-size: 100%;
+			background-repeat: no-repeat;
+		/* 	border: 1px solid #000; */
+			padding: 28px;
+			width: 28px;
+			text-decoration: none;
+			background-color: #F1F1F1;
+			margin: 0 0 0 104px;
+		}
+		.form__button:hover{
+			background-color: #ec5a62;
+		
+		}
+		.head-list{
+			margin: 0 auto;
+			width: 800px;
+			/* border: 1px solid #000; */
+		}
+		
+
+		.wrapper{
+			display: inline-block;
+			width: 33%;
+			/* border: 1px solid #000; */
+		}
+
+		.head-list__header{
+			display: inline-block;
+			text-transform: uppercase;
+			font-family: Arial, sans-serif;
+			font-size: 15px;
+			width: 100%;
+			padding: 10px 0;
+
+		}
+
+		.head-list__list-one, .head-list__list-two, .head-list__list-three{
+			display: inline-block;
+			width: 100%;
+			/* border: 1px solid #000;
+ */
+		}
+		li{
+			text-decoration: none;
+			display: inline-block;
+			/* font-weight: bold; */
+			font-family: Arial, sans-serif;
+			font-size: 13px;
+			border-radius: 6px 6px;
+			/* border: 1px solid #000; */
+			width: 100%;
+			background-color: #EBEBED;
+			margin: 2px 0;
+    		padding: 7px 0 7px 14px;
+
+		}
+		li:hover{
+			background-color: #E4E4E6;
+			color: #ec5a62;
+		}
+	 .img-rad{
+		display: inline-block;
+	/* 	border: 1px solid #000; */
+		border-radius:50%;
+		background-color: #fff;
+		width: 20%; 
+	}
+
+	.img-box{
+		display: inline-block;
+	/* 	border: 1px solid #000; */ 
+		background-color: #fff;
+		width: 20%;
+		height: 20%;
+	}
+	
+
+/*  li:before{
+	content: '';
+	display: inline-block;
+	border: 1px solid #000;
+	border-radius:50%;
+	background-color: #fff;
+	width: 20%;
+	background: url("avatar/SaraSoueidan.jpeg");
+	} 
+ */
