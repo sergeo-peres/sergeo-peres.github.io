@@ -1,0 +1,130 @@
+	* {
+		margin: 0;
+		padding: 0;
+		transition: all .1s ease-in;
+	}
+
+body{
+	
+	background-color: #3B3F45;
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	}
+
+.main-header{
+	width: 100%;
+	font-size: 20px;
+	color: #EB7E7F;	
+	background-color: #4A4F56;
+	padding: 20px; 
+	margin: 0;
+	text-align: center ;
+	}	
+
+		.main-header p{
+			margin: 10px 0 0 0;
+		}
+		.main-header h1{
+		     margin:0; 
+		}
+
+.head-list{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.dinner__list {
+			list-style-type: none;
+		}
+		.dinner__item:nth-child(odd) {
+			background: #89849f;
+		}
+		.dinner__item:nth-child(even) {
+			background: #7b7594;
+		}
+
+.dinner__item {
+			border-top: 5px solid transparent;
+			border-bottom: 5px solid transparent;
+			color: #fff;
+			font-size: 25px;
+		}
+
+	.dinner__item:hover {
+			background:  #625E77 ;
+			border-color: #fff;
+			cursor: pointer;
+		}
+	.dinner__item:active {
+			background: #DE797B;
+		}
+
+ .dinner__title {
+			display: block;
+			/* margin: 0 0 10px 0; */
+			cursor: pointer;
+		} 
+	.input__checkbox:checked + span {
+			color: #A3A0B5;
+			text-decoration: line-through;
+		}
+		
+	.dinner__desc-1:after{
+			content: ' ( for the next lessos about CSS )';
+			font-size: 17px ;
+			color:#A3A0B5;
+		}
+	.dinner__desc-2:after{
+			content: ' (for more CSS manipulations )';
+			font-size: 17px ;
+			color:#A3A0B5;
+		}
+	.dinner__desc-3:after{
+			content: ' (because they are awesome )';
+			font-size: 17px ;
+			color:#A3A0B5;
+		}
+
+	.dinner__desc-4:after{
+			content: ' ( hm... they always disappear )';
+			font-size: 17px ;
+			color:#A3A0B5;
+		}
+
+	.dinner__desc-6:after{
+			content: ' ( for my friends )';
+			font-size: 17px ;
+			color:#A3A0B5;
+		}
+		
+.input__checkbox{
+			display: inline-block;
+		    width: 25px;
+		    height: 25px;
+		    border: 2px solid #000;
+		    margin: 11px;
+		    cursor: pointer;
+		}
+
+.btn-link{
+	display: inline-block;
+	font-size: 20px;
+	text-align: center ;
+	color: #EB7E7F;
+	margin: 40px auto;
+	width: 700px;
+	padding: 20px 0;
+	background: #4A4F56;
+}
+
+.btn-link:active{
+	display: inline-block;
+	font-size: 20px;
+	text-align: center ;
+	color: #fff;
+	margin: 40px auto;
+	width: 700px;
+	padding: 20px 0;
+	background: #EB7E7F;
+}
+
+
