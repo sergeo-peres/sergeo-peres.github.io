@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	transition: all .1s ease-in; 
+}
+
+body{
+	background:#3399CC ;
+}
+
+.wrepper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header{
+	width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px 0;
+	font-size: 30px ;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #fff;
+}
+.mean-box{
+	border: 4px solid #fff;
+	margin: 0 auto;
+	width: 80%;
+	font-size: 0;
+}
+
+ul:hover li{
+	opacity: 0.5;
+}
+ul:hover li:hover{
+	opacity: 1;
+}
+
+	.list li{
+		display: inline-block;
+		color: #fff;
+		border: 2px solid #fff;
+		text-decoration: none;
+		font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+		font-size: 20px;
+		padding: 18px 0;
+}
+
+		.list__item-city-lis{
+			width: 50%;
+			text-align: center;
+			background: #3399CC;
+		}
+
+		.list__item-city-par{
+			width: 25%;
+			text-align: center;
+			background: #33CCCC;
+		}
+
+		.list__item-city-bel{
+			border-bottom: 4px solid #fff;
+			width: 25%;
+			text-align: center;
+			background: #956395;
+		}
+
+		.list__item-city-mosc{
+			width: 25%;
+			text-align: center;
+			background: #C24747;
+
+		}
+		.list__item-city-tel{
+			width: 25%;
+			text-align: center;
+			background: #E2674A;
+		}
+
+		.list__item-city-ca{
+			width: 25%;
+			text-align: center;
+			background: #FFCC66;
+		}
+
+		.list__item-city-new{
+			width: 25%;
+			text-align: center;
+			background: #90C090;
+		}
+
+		.list__item-city-del{
+			width: 25%;
+			text-align: center;
+			background: #669999;
+		}
+
+		.list__item-city-san{
+			width: 50%;
+			text-align: center;
+			background: #CC6699;
+		}
+
+		.list__item-city-tok{
+			width: 25%;
+			text-align: center;
+			background: #339966;
+		}
+
+		.list__item-city-syd{
+			width: 100%;
+			text-align: center;
+			background:#666699 ;
+		}
+
+
+.text{
+	display: inline-block;
+	color: #fff;
+	font-family:“Lucida Sans Unicode”, “Lucida Grande”, sans-serif ;
+	width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 23px 98px;
+}
+
+span{
+	display: inline-block;
+	width: 100%;
+	margin: 15px 0;
+	opacity: 0.8;
+}
+
+i{
+   display: inline-block;
+   width: 20%;
+   font-size: 29px;
+   margin: 0 0 0 8px;
+}
+
+	 .wi-day-sunny{
+	 	display: inline-block;
+	   	width: 20%;
+	    font-size: 29px;
+	    margin: 0 0 0 -9px;
+	 }
+
+	 #cair{
+	 	display: inline-block;
+	   	width: 20%;
+	    font-size: 29px;
+	    margin: 0 0 0 8px;
+
+	 }
+	  .wi-day-sunny-overcast{
+	  	display: inline-block;
+	   	width: 20%;
+	    font-size: 29px;
+	    margin: 0 0 0 -9px;
+	  }
+
+	  .wi-night-cloudy{
+ 		display: inline-block;
+	   	width: 4%;
+	    font-size: 29px;
+	    margin: 0 0 0 10px;
+	  }
